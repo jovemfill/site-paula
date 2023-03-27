@@ -1,0 +1,288 @@
+:root {
+    --cor-primaria: #fff;
+    --cor-secundaria: #00bac6;
+    --cor-tercearia: #000000;
+    --cor-hover: #00bac6;
+    --font-princial: "Alkatra";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    opacity: 60%;
+}
+
+.logo-nome {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    margin: 0 0 7px 0;
+}
+
+.pontinho {
+    margin-top: 20px;
+}
+
+.line1 {
+    background-color: #fff;
+    width: 80%;
+    padding: 1px;
+    margin: 08px 0px 0px 5px;
+}
+
+/* 1 REM equivale 16px (Ideal para textos)
+   % Ideal para imgs, paddins, divs*/
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5%;
+    height: 15vh;
+    background-color: #00bac6;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    color: #fff;
+
+}
+
+.nav-list li {
+    letter-spacing: 0.3rem;
+    margin: 1.2rem;
+}
+
+main {
+    background: var(--cor-primaria);
+    min-height: 80vh;
+}
+
+h1 {
+    font-family: var(--font-princial);
+    padding-bottom: 1.5rem;
+    font-size: 32px;
+    color: #00bac6;
+}
+
+.rodaroda {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.rodaroda img {
+    width: 90%;
+    padding-bottom: 1.5rem;
+}
+
+.col-1 {
+    text-align: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.col-1 img {
+    width: 32%;
+    margin: 2.5%;
+    border: 0.2rem solid;
+    border-radius: 1rem;
+    color: #00bac6;
+}
+
+@media (max-width:520px) {
+    .col-1 img {
+        width: 42%;
+        margin: 2.5%;
+        border: 0.2rem solid;
+        border-radius: 1rem;
+        color: #00bac6;
+    }
+}
+
+body {
+    background: var(--cor-primaria);
+    overflow-x: hidden;
+}
+
+footer {
+    background: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    height: 05vh;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 5rem;
+}
+
+/*======================= Sobre =======================*/
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.col-2__logo {
+    width: 66%;
+    margin: 0 auto;
+}
+
+@media (min-width: 620px) {
+    .col-2__logo {
+        width: 40%
+    }
+}
+
+@media (min-width: 1020px) {
+    .col-2__logo {
+        width: 30%
+    }
+}
+
+
+.col-2 img {
+    width: 100%;
+}
+
+.col-2 ul {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--font-princial);
+    padding: 16px;
+    color: var(--cor-primaria);
+    border: 1rem solid;
+    border-radius: 2rem;
+    background-color: #00bac6;
+    border-color: #ffffff;
+    margin-top: 20px;
+}
+
+.col-2 li {
+    padding: 0.5rem;
+}
+
+.col-2 li:hover {
+    opacity: 60%;
+}
+
+.col-2 p {
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+.pague {
+    margin-bottom: 07%;
+    margin: 0 auto;
+    padding: 16px;
+    color: var(--cor-primaria);
+    border: 1rem solid;
+    border-radius: 2rem;
+    background-color: #00bac6;
+    border-color: #ffffff;
+    font-family: var(--font-princial);
+}
+
+.obs {
+    font-family: var(--font-princial);
+}
+
+.col-3 {
+    text-align: center;
+    flex-direction: column;
+    margin: 0.5%;
+    padding-bottom: 2rem;
+}
+
+.col-3 img {
+    width: 30%;
+    border: 0.2rem solid;
+    border-radius: 1rem;
+    color: #00bac6;
+}
+
+@media (max-width: 520px) {
+    .col-3 img {
+        width: 55%;
+    }
+}
+
+/*======================= Contatos =======================*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 80vh;
+}
+
+.container__num {
+    margin: 0 auto;
+    padding: 16px;
+    color: var(--cor-primaria);
+    border: 1rem solid;
+    border-radius: 2rem;
+    background-color: #00bac6;
+    border-color: #ffffff;
+    margin-top: 10px;
+    font-family: var(--font-princial);
+}
+
+.container__num:hover {
+    background: var(--cor-primaria);
+    color: #00bac6;
+    background: #fff;
+}
+
+.container__hours {
+    margin: 0 auto;
+    padding: 16px;
+    color: var(--cor-primaria);
+    border: 1rem solid;
+    border-radius: 2rem;
+    background-color: #00bac6;
+    border-color: #ffffff;
+    font-family: var(--font-princial);
+}
+
+.container__hours:hover {
+    background: var(--cor-primaria);
+    color: #00bac6;
+    background: #fff;
+}
+
+.container__local {
+    margin: 0 auto;
+    padding: 16px;
+    color: var(--cor-primaria);
+    border: 1rem solid;
+    border-radius: 2rem;
+    background-color: #00bac6;
+    border-color: #ffffff;
+    font-family: var(--font-princial);
+    margin-bottom: 10px;
+}
+
+.container__local:hover {
+    background: var(--cor-primaria);
+    color: #00bac6;
+    background: #fff;
+}
+
+.mapinha {
+    width: 0 auto;
+    border: 5px solid #00bac6;
+    border-radius: 10px;
+    margin-bottom: 5em;
+}
