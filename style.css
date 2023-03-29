@@ -75,26 +75,36 @@ h1 {
     color: #00bac6;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+
+}
+
 .rodaroda {
     text-align: center;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .rodaroda img {
     width: 90%;
-    padding-bottom: 1.5rem;
 }
 
 .col-1 {
     text-align: center;
     flex-direction: column;
-    padding: 5%;
+    padding: 3%;
 }
 
 .col-1 img {
     width: 32%;
-    margin: 2.5%;
+    margin: 1.5%;
     border: 0.2rem solid;
     border-radius: 1rem;
     color: #00bac6;
@@ -104,8 +114,8 @@ h1 {
     .col-1 img {
         width: 42%;
         margin: 2.5%;
-        border: 0.2rem solid;
-        border-radius: 1rem;
+        border: 0.1rem solid;
+        border-radius: 0.5rem;
         color: #00bac6;
     }
 }
